@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    color: white;
+    background-color: black;
+    font-size: medium;
+}
+
+header img {
+    height: 40px;
+}
+
+.container {
+    max-width: 1156px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header li {
+    margin-left: 2rem;
+}
+
+header li:nth-child(1) {
+    margin-left: 0;
+}
+
+header li:hover {
+    color: lightgreen;
+    font-weight: bold;
+}
+
+.advertise {
+    background-color: #ffcdd2;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.advertise .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.advertise .container img {
+    margin-left: 2rem;
+    width: 400px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+p {
+    font-size: 22px;
+    padding-bottom: 2rem;
+}
+
+.content .add-links {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+}
+
+.add-links a {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 12px;
+    margin-right: 10px;
+    width: 125px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.add-links .link-black {
+    background-color: black;
+    color: white;
+}
+
+.content span {
+    font-size: 11px;
+}
+
+.content span a {
+    text-decoration: underline;
+}
+
+.app-download {
+    background-color: #f6f6f6;
+}
+
+.app-download .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.app-download .app {
+    padding-bottom: 2rem;
+}
+
+.app-download span {
+    font-size: 11px;
+    text-align: center;
+}
+
+.app-download span a {
+    text-decoration: underline;
+}
+
+.why-spotify .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.why-spotify ul {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    font-size: 14px;
+}
+
+.feature img {
+    width: 142px;
+    padding-bottom: 2rem;
+}
+
+.feature b {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.plan-selection {
+    background-color: #f6f6f6;
+}
+
+.plan-selection .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.plan-selection h1 {
+    padding-bottom: 0.5rem;
+}
+
+.plan-selection .plans {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.plan {
+    padding: 15px;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.plan .offer {
+    width: fit-content;
+    background-color: rgb(46, 119, 208);
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    padding: 5px 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.plan-head {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plan .desc {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.plan .description {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.plan .description ul {
+    padding-top: 10px;
+    list-style: none;
+}
+
+.plan .description img {
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.plan .description li {
+    margin-bottom: 0.5rem;
+}
+
+.plan .description a {
+    align-self: center;
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: 90%;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.plan .plan-footer {
+    padding: 5px;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.plan .plan-footer a {
+    
+    text-decoration: underline;
+}
+
+.questions {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.questions h1 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.questions p {
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 3rem;
+}
+
+.questions ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questions ul li {
+    width: 1126px;
+    background-color: white;
+    margin-bottom: 2px;
+}
+
+.questions .ques {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.questions li img {
+    width:25px;
+}
+
+.questions .ques:hover {
+    text-decoration: underline;
+    background-color: #f8f8f8;
+}
+
+.questions .ans {
+    padding: 25px;
+    font-size: 15px;
+}
+
+.questions h3 {
+    font-size: 18px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer .container {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 350px;
+}
+
+footer .main .spotify img {
+    width: 125px;
+}
+
+footer .main-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer .social-media {
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+footer .social-media ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+footer .social-media ul li {
+    margin-right: 1rem;
+}
+
+footer .social-media ul li:nth-child(3) {
+    margin-right: 0;
+}
+
+footer .social-media .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #222326;
+    color: white;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+footer .social-media .icon:hover {
+    color: lightgreen;
+}
+
+.insta {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: no-repeat url('images/social/insta.svg'),currentColor;
+}
+
+.twitter {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: no-repeat url('images/social/twitter.svg'),currentColor;
+}
+
+.fb {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: no-repeat url('images/social/fb.svg'),currentColor;
+}
+
+footer .social-media .icon img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+footer .main-content h5 {
+    color: grey;
+}
+
+footer .main-content ul {
+    list-style: none;
+    margin-top: 1rem;
+    font-size: 15px;
+}
+
+footer .main-content ul li {
+    margin-top: 1.5rem;
+}
+
+footer ul li a:hover {
+    color:  lightgreen;
+    cursor: pointer;
+}
+
+footer .country {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    color: grey;
+}
+
+footer .links {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: grey;
+}
+
+footer .links a {
+    margin-right: 1rem;
+}
